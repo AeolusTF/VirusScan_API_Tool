@@ -38,8 +38,8 @@ Results for MD5:  92d37a92138659fa75f45ccb87242910
         Kaspersky Detection: Backdoor.Win32.Agent.clfe
         ESET Detection: a variant of Win32/Briba.AA
         Scanned on: 2018-10-06 17:05:38
-     Unique Sources 3
-      Submission Names:
+        Unique Sources 3
+        Submission Names:
             92d37a92138659fa75f45ccb87242910
             wsusservice.dll_
             wsusservice2.dll_
@@ -62,7 +62,7 @@ xen0ph0n @pir8ship：〜/ tools $ python vt.py 287f3dda64b830a5ac5a6df3266f7d08 
         Submission Names:
             7DkduxxH
 
-       JSON写入文件 -  VTDL287F3DDA64B830A5AC5A6DF3266F7D08.json
+       JSON Written to File -- VTDL287F3DDA64B830A5AC5A6DF3266F7D08.json
 
        详细的VirusTotal信息输出：
 
