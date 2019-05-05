@@ -67,7 +67,10 @@ root @Ae0lus：〜/ tools $ python vs.py 287f3dda64b830a5ac5a6df3266f7d08 -pdvjr
         Last Seen: 2018-05-27 14:07:52
         Unique Sources 2
         Submission Names:
+                2075717f599d9c7df6fb85d9b191fc26b9f530b371d8689c0a769f2fa0d68598.exe
                 7DkduxxH
+                wuauclt.exe
+                setup.exe
 
         JSON Written to File -- VTDL287F3DDA64B830A5AC5A6DF3266F7D08.json
 
