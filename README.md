@@ -33,17 +33,22 @@ root @Ae0lus：〜/ tools $ python vs.py ../../VirtualBox_Share/wsusservice.dll 
 
 Results for MD5:  92d37a92138659fa75f45ccb87242910
 
+        Results for MD5:  92d37a92138659fa75f45ccb87242910
+
         Detected by:  53 / 67
         Sophos Detection: Troj/Briba-A
         Kaspersky Detection: Backdoor.Win32.Agent.clfe
-        ESET Detection: a variant of Win32/Briba.AA
+        TrendMicro Detection: BKDR_BRIBA.A
         Scanned on: 2018-10-06 17:05:38
-        Unique Sources 3
+        First Seen: 2012-08-15 12:36:02
+        Last Seen: 2015-09-30 06:14:28
+        Unique Sources 4
         Submission Names:
-            92d37a92138659fa75f45ccb87242910
-            wsusservice.dll_
-            wsusservice2.dll_
-            file-4567337_
+                file-4567337_
+                92d37a92138659fa75f45ccb87242910
+                wsusservice.dll_
+                wsusservice2.dll_
+                wuauclt.exe
 
 
 
@@ -51,68 +56,96 @@ Results for MD5:  92d37a92138659fa75f45ccb87242910
 
 root @Ae0lus：〜/ tools $ python vs.py 287f3dda64b830a5ac5a6df3266f7d08 -pdvjr
 
-       Results for MD5:  287f3dda64b830a5ac5a6df3266f7d08
+        Results for MD5:  287f3dda64b830a5ac5a6df3266f7d08
 
-        Detected by:  50 / 66
+        Detected by:  56 / 72
         Sophos Detection: Troj/Hurgyu-B
         Kaspersky Detection: HEUR:Trojan.Win32.Generic
-        ESET Detection: a variant of Win32/Inject.NFV
-        Scanned on: 2019-03-20 20:03:39
-        Unique Sources 1
+        TrendMicro Detection: TROJ_GEN.R002C0DKT18
+        Scanned on: 2019-05-05 12:24:12
+        First Seen: 2012-09-25 09:14:13
+        Last Seen: 2018-05-27 14:07:52
+        Unique Sources 2
         Submission Names:
-            7DkduxxH
+                7DkduxxH
 
-       JSON Written to File -- VTDL287F3DDA64B830A5AC5A6DF3266F7D08.json
+        JSON Written to File -- VTDL287F3DDA64B830A5AC5A6DF3266F7D08.json
 
-       详细的VirusTotal信息输出：
+        Verbose VirusTotal Information Output:
 
-       MicroWorld-eScan         True     Trojan.Generic.7705996
-       nProtect                 True     Trojan/W32.Small.29184.SN
-       CAT-QuickHeal            True     TrojanDropper.Dapato.bnnu
-       McAfee                   True     Generic Dropper!ff3
-       Malwarebytes             True     Trojan.Inject
-       K7AntiVirus              True     Riskware
-       TheHacker                False    None
-       NANO-Antivirus           True     Trojan.Win32.Dapato.vpmxh
-       F-Prot                   False    None
-       Symantec                 True     Trojan.Gen.2
-       Norman                   True     Suspicious_Gen4.AWDSR
-       TotalDefense             False    None
-       TrendMicro-HouseCall     True     TROJ_GEN.RCBC8HQ
-       Avast                    True     MX97:ShellCode-I [Expl]
-       eSafe                    False    None
-       ClamAV                   False    None
-       Kaspersky                True     Trojan-Dropper.Win32.Dapato.bnnu
-       BitDefender              True     Trojan.Generic.7705996
-       Agnitum                  True     Trojan.DR.Dapato!qkvVtOGNQlE
-       SUPERAntiSpyware         False    None
-       Emsisoft                 True     Trojan.Generic.7705996 (B)
-       Comodo                   True     UnclassifiedMalware
-       F-Secure                 True     Trojan:W32/Agent.DUDB
-       DrWeb                    True     Trojan.DownLoader6.49674
-       VIPRE                    True     Trojan.Win32.Generic!BT
-       AntiVir                  True     TR/Agent.29184.170
-       TrendMicro               True     TROJ_GEN.RCBC8HQ
-       McAfee-GW-Edition        True     Generic Dropper!ff3
-       Sophos                   True     Troj/Hurgyu-A
-       Jiangmin                 True     TrojanDropper.Dapato.mfq
-       Antiy-AVL                True     Trojan/Win32.Dapato.gen
-       Kingsoft                 True     Win32.Troj.Dapato.(kcloud)
-       Microsoft                True     VirTool:Win32/Obfuscator.ABD
-       ViRobot                  True     Dropper.A.Dapato.29184.J
-       AhnLab-V3                True     Trojan/Win32.Inject
-       GData                    True     Trojan.Generic.7705996
-       Commtouch                False    None
-       ByteHero                 False    None
-       VBA32                    True     Trojan-Dropper.Dapato.bnnu
-       PCTools                  True     Trojan.Gen
-       ESET-NOD32               True     a variant of Win32/Inject.NFV
-       Rising                   True     Suspicious
-       Ikarus                   True     Win32.SuspectCrc
-       Fortinet                 True     W32/Inject.NFV!tr
-       AVG                      True     Dropper.Generic6.APFX
-       Panda                    True     Generic Trojan
-
+        Bkav                    False   None
+        MicroWorld-eScan        True    Gen:Variant.Barys.5788
+        FireEye                 True    Generic.mg.287f3dda64b830a5
+        CAT-QuickHeal           True    Backdoor.Poison
+        McAfee                  True    Artemis!287F3DDA64B8
+        Cylance                 True    Unsafe
+        VIPRE                   True    Trojan.Win32.Generic!BT
+        TheHacker               True    Trojan/Inject.nfv
+        BitDefender             True    Gen:Variant.Barys.5788
+        K7GW                    False   None
+        K7AntiVirus             False   None
+        TrendMicro              True    TROJ_GEN.R002C0DKT18
+        Baidu                   False   None
+        NANO-Antivirus          True    Trojan.Win32.Dapato.vpmxh
+        F-Prot                  False   None
+        Symantec                True    ML.Attribute.HighConfidence
+        TotalDefense            False   None
+        TrendMicro-HouseCall    True    TROJ_GEN.R002C0DKT18
+        Paloalto                True    generic.ml
+        ClamAV                  False   None
+        GData                   True    Gen:Variant.Barys.5788
+        Kaspersky               True    HEUR:Trojan.Win32.Generic
+        Alibaba                 True    Backdoor:Win32/Poison.6fa44a48
+        Babable                 False   None
+        ViRobot                 True    Trojan.Win32.A.Agent.29184.AM
+        AegisLab                True    Trojan.Win32.Generic.4!c
+        Rising                  True    Backdoor.Poison!8.2D7 (CLOUD)
+        Ad-Aware                True    Gen:Variant.Barys.5788
+        Trustlook               False   None
+        Sophos                  True    Troj/Hurgyu-B
+        Comodo                  True    Malware@#1ndrscwmvrosl
+        F-Secure                True    Trojan:W32/Agent.DUDB
+        DrWeb                   True    Trojan.DownLoader6.49674
+        Zillya                  True    Dropper.Dapato.Win32.15890
+        Invincea                True    heuristic
+        McAfee-GW-Edition       True    BehavesLike.Win32.Detnat.mm
+        Trapmine                True    malicious.high.ml.score
+        CMC                     True    Trojan-Dropper.Win32.Dapato!O
+        Emsisoft                True    Gen:Variant.Barys.5788 (B)
+        SentinelOne             True    DFI - Suspicious PE
+        Cyren                   False   None
+        Jiangmin                True    TrojanDropper.Dapato.jlo
+        Webroot                 True    W32.Malware.Gen
+        Avira                   True    HEUR/AGEN.1010960
+        Antiy-AVL               True    Trojan[Dropper]/Win32.Dapato
+        Kingsoft                False   None
+        Endgame                 True    malicious (high confidence)
+        Arcabit                 True    Trojan.Barys.D169C
+        SUPERAntiSpyware        False   None
+        ZoneAlarm               True    HEUR:Trojan.Win32.Generic
+        Avast-Mobile            False   None
+        Microsoft               True    Backdoor:Win32/Poison.AU
+        TACHYON                 True    Trojan/W32.Small.29184.SN
+        AhnLab-V3               True    Trojan/Win32.Inject.R46970
+        Acronis                 True    suspicious
+        VBA32                   True    BScope.Trojan.Reconyc
+        ALYac                   True    Gen:Variant.Barys.5788
+        MAX                     True    malware (ai score=85)
+        Malwarebytes            False   None
+        Panda                   True    Generic Malware
+        Zoner                   False   None
+        ESET-NOD32              True    a variant of Win32/Inject.NFV
+        Tencent                 True    Win32.Trojan.Generic.Hrpn
+        Yandex                  True    Trojan.DR.Dapato!qkvVtOGNQlE
+        Ikarus                  True    Trojan.Win32.Inject
+        eGambit                 False   None
+        Fortinet                True    W32/Inject.NFV!tr
+        AVG                     True    Win32:Malware-gen
+        Cybereason              True    malicious.a64b83
+        Avast                   True    Win32:Malware-gen
+        CrowdStrike             True    win/malicious_confidence_90% (W)
+        Qihoo-360               True    HEUR/Malware.QVM07.Gen
+        
        Malware Downloaded to File -- VTDL287F3DDA64B830A5AC5A6DF3266F7D08.danger
 
        PCAP Downloaded to File -- VTDL287F3DDA64B830A5AC5A6DF3266F7D08.pcap
