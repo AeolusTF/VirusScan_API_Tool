@@ -37,9 +37,9 @@ xen0ph0n @pir8ship：〜/ tools $ python vt.py ../../VirtualBox_Share/wsusservic
       Sophos Detection：Troj / Briba-A
       卡巴斯基检测：Backdoor.Win32.Agent.clfe
       TrendMicro检测：BKDR_BRIBA.A
-      扫描日期：2012-09-28 02:44:37
+      扫描日期：2019-03-18 02:24:12
       首先见：2012-08-15 12:36:02
-      最后看到：2012-09-28 02:44:37
+      最后看到：2019-03-18 02:24:12
       独特来源3
       提交名称：
             92d37a92138659fa75f45ccb87242910
@@ -59,9 +59,9 @@ xen0ph0n @pir8ship：〜/ tools $ python vt.py 287f3dda64b830a5ac5a6df3266f7d08 
       Sophos Detection：Troj / Hurgyu-A
       卡巴斯基检测：Trojan-Dropper.Win32.Dapato.bnnu
       TrendMicro检测：TROJ_GEN.RCBC8HQ
-      扫描日期：2013-03-25 21:38:35
+      扫描日期：2019-03-18 02:29:40
       首先见：2012-09-25 09:14:13
-      最后看到：2012-09-25 09:14:13
+      最后看到：2019-03-18 02:29:40
       独特来源1
       提交名称：
             7DkduxxH
