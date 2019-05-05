@@ -3,7 +3,7 @@
 
 注意：您需要自己的高级VT API才能使用此工具。API密钥继续在第12行！
 
-注意2：如果你有一个免费的VT公共API（你这样做），那么你可以使用功能有限的VirusScan.py（Check Hash / Path / Rescan / DownloadJson / VerboseDetections），每分钟允许四次检查。
+注意2：如果你有一个免费的VT公共API，那么你可以使用功能有限的VirusScan.py（Check Hash / Path / Rescan / DownloadJson / VerboseDetections），每分钟允许四次检查。
 
 
 ## 例子
