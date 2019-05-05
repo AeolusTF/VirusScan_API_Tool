@@ -3,7 +3,7 @@
 
 注意：您需要自己的高级VT API才能使用此工具。API密钥继续在第12行！
 
-注意2：如果你有一个免费的VT公共API（你这样做），那么你可以使用功能有限的VTlite.py（Check Hash / Path / Rescan / DownloadJson / VerboseDetections），每分钟允许四次检查。
+注意2：如果你有一个免费的VT公共API（你这样做），那么你可以使用功能有限的VirusScan.py（Check Hash / Path / Rescan / DownloadJson / VerboseDetections），每分钟允许四次检查。
 
 
 ## 例子
@@ -11,7 +11,7 @@
 使用方法如下，基本搜索+点击全部的示例
 下面的开关：
 
-用法：vt.py [-h] [-s] [-v] [-j] [-d] [-p] [-r] HashorPath
+用法：vs.py [-h] [-s] [-v] [-j] [-d] [-p] [-r] HashorPath
 
 从VirusTotal搜索和下载
 
@@ -29,7 +29,7 @@
 
 基本扫描示例：
 
-xen0ph0n @pir8ship：〜/ tools $ python vt.py ../../VirtualBox_Share/wsusservice.dll -s
+root @Ae0lus：〜/ tools $ python vs.py ../../VirtualBox_Share/wsusservice.dll -s
 
 Results for MD5:  92d37a92138659fa75f45ccb87242910
 
@@ -49,7 +49,7 @@ Results for MD5:  92d37a92138659fa75f45ccb87242910
 
 示例详细扫描+下载+ Pcap + Json Save + Force Rescan：
 
-xen0ph0n @pir8ship：〜/ tools $ python vt.py 287f3dda64b830a5ac5a6df3266f7d08 -pdvjr
+root @Ae0lus：〜/ tools $ python vs.py 287f3dda64b830a5ac5a6df3266f7d08 -pdvjr
 
        Results for MD5:  287f3dda64b830a5ac5a6df3266f7d08
 
